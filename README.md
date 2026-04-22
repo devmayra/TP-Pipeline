@@ -1,21 +1,35 @@
-Trabajo Práctico n1 de la materia "Técnicas de Procesamiento del habla".
+Este proyecto forma parte del Trabajo Práctico N°1 de la materia “Técnicas de Procesamiento del Habla”.
 
-El análisis del pipeline arroja los siguientes resultados:
 
--La jerarquía de las 6 palabras más usadas de todo el Corpus son:
-1. "python", 7 veces.
-2. "javascript", 7 veces.
-3. "cplus", 5 veces.
-4. "rust", 5 veces.
-5. "-.", 4 veces. (token no léxico)
-6. "interpret", 3 veces.
+**Análisis de Texto con NLP (TF-IDF + NLTK)**
+-Descripción:
+Este proyecto realiza un procesamiento básico de lenguaje natural (NLP) sobre un corpus de oraciones relacionadas con lenguajes de programación.
+El objetivo es transformar texto en datos numéricos y aplicar técnicas de análisis para estudiar la importancia y frecuencia de las palabras.
 
--La palabra menos utilizada es:
-"programmer", una sola vez.
 
--Las palabras más repetidas por oración son:
-1. "language", dos veces en la oración 1.
-2. "typed", dos veces en la oración 3.
-3. "require", dos veces en la oración 8.
+**¿Qué hace el proyecto?**
 
-(Se identificaron únicamente oraciones con repeticiones reales (número mayor a 1.))
+El pipeline incluye los siguientes pasos:
+
+-Tokenización del texto en palabras.
+-Eliminación de stopwords y signos de puntuación.
+-Lematización de palabras según su categoría gramatical.
+-Construcción de un corpus limpio.
+-Vectorización del texto mediante TF-IDF.
+-Análisis de frecuencia de palabras.
+-Visualización de resultados con gráficos.
+
+
+**Tecnologías utilizadas:**
+-Python.
+-NLTK (procesamiento de lenguaje natural).
+-Scikit-learn (TF-IDF Vectorizer).
+-Matplotlib (visualización de datos).
+
+
+**Estructura del proyecto:**
+-Preprocesamiento de texto.
+-Construcción del corpus.
+-Vectorización TF-IDF.
+-Análisis de frecuencias.
+-Visualización de resultados.
